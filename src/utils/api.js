@@ -1,11 +1,11 @@
+import { PROXY_URL } from "./uri"
 
 const errorInFetch = {
   status: "failed",
 }
-
 export const apiGet = async (url) => {
   try {
-    const response = await fetch(url)
+    const response = await fetch(`${PROXY_URL}${url}`)
     if (response.status > 400) {
       return errorInFetch
     }

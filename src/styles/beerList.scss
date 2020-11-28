@@ -1,0 +1,22 @@
+.beer-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.center{
+  display: flex;
+  justify-content: center;
+}
+input:focus{
+  outline: none;
+}
+.m-10{
+  margin: 10px;
+}
+.beer-list-container{
+  text-align: center;
+  h1{
+    font-size: 30px;
+    font-weight: 400;
+  }
+}
