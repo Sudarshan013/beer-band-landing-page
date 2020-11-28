@@ -1,11 +1,7 @@
 import './App.css';
-
+import BeerListContainer from "./components/BeerListContainer"
 function App() {
-  return (
-    <div className="">
-      hey
-    </div>
-  );
+  return (<BeerListContainer/>);
 }
 
 export default App;
